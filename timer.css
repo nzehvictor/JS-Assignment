@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(137, 137, 187);
+    justify-content: center;
+    
+}
+
+input{
+    margin-left: 50%;
+    margin-right: 50%;
+    align-items: center;
+}
+
+#display{
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 54px;
+    align-items: center;
+}
+
+#buttons{
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+    align-items: center;
+}

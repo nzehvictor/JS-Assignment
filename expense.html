@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="expense.css">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <main>
+        <h1>Expense Tracker</h1>
+        <div>
+            <p>Your Balance</p>
+            <h1 id="balance">git sta</h1>
+        </div>
+        <div id="divOne">
+            <table id="tableOne">
+                <tr>
+                    <th>INCOME</th>
+                    <th>EXPENSE</th>
+                </tr>
+                <tr>
+                    <td id="income"></td>
+                    <td id="expense"></td>
+                </tr>
+            </table>
+        </div>
+        <h2>History</h2>
+        <hr>
+        <div>
+            <table id="tableTwo">
+            </table>
+        </div>
+        <div>
+            <h3>Add New Transactions</h3>
+            <hr>
+            <label for="">Text</label><br>
+            <input type="text" id="inputStr"><br>
+            <label for="">Amount <br> (negative-expense positive - income)</label><br>
+            <input type="text" id="inputNum"><br>
+            <button>Add Transaction</button>
+        </div>
+    </main>
+    <script src="expense.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+*{
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+hr{
+    width: 70%;
+}
+
+#balance::before{
+    content: "\20A6";
+}
+
+#tableOne{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px ;
+}
+
+#income{
+    color: green;
+    font-size: 35px;
+    border-right: 1px solid black;
+}
+
+#income::before{
+    content: "\20A6";
+}
+
+#expense{
+    color: red;
+    font-size: 35px;
+}
+
+#tableTwo{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#expense::before{
+    content: "\20A6";
+}
+
+#tableTwo td{
+    font-size: 23px;
+    border-collapse: collapse;
+}
+
+.redBorder{
+    border-right: 1px solid red;
+    border-width: thick;
+}
+
+.greenborder{
+    border-right: 1px solid green;
+    border-width: thick;
+}
+.example{
+    text-transform: capitalize;
+}
